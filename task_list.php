@@ -93,7 +93,7 @@
         <?php endif; ?>
         </div><!-- end main --> 
         </div><!-- end page --> 
-        
+        <p><?php print_r($task_list); ?></p>
     </main>
 </body>
 </html>
