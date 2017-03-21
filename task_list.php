@@ -12,7 +12,7 @@
     </header>
 
     <main>
-        <p><?php print_r($task_list); ?></p>
+       
         <!-- part 1: the errors -->
         <?php if (count($errors) > 0) : ?>
         <h2>Errors:</h2>
@@ -93,7 +93,7 @@
         <?php endif; ?>
         </div><!-- end main --> 
         </div><!-- end page --> 
-
+         <p><?php print_r($task_list); ?></p>
     </main>
 </body>
 </html>
