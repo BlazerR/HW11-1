@@ -5,6 +5,9 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+    <div id="page"> 
+    <div id="header"> 
+
     <header>
         <h1>Task List Manager</h1>
     </header>
@@ -89,6 +92,8 @@
             <input type="submit" name="action" value="Cancel Changes">
         </form>
         <?php endif; ?>
+        </div><!-- end main --> 
+        </div><!-- end page --> 
 
     </main>
 </body>

@@ -1,4 +1,11 @@
 <?php
+if (isset($_POST['tasklist'])) { 
+     $task_list = $_POST['tasklist']; 
+ } else { 
+
+     $task_list = array(); 
+
+
 //get tasklist array from POST
 $task_list = filter_input(INPUT_POST, 'tasklist', 
         FILTER_DEFAULT, FILTER_REQUIRE_ARRAY);
