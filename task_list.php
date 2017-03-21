@@ -11,8 +11,8 @@
         <h1>Task List Manager</h1>
     </header>
 
-    <main  <p><?php print_r($task_list); ?></p>
-       
+    <main >
+       <p><?php 
         <!-- part 1: the errors -->
         <?php if (count($errors) > 0) : ?>
         <h2>Errors:</h2>
@@ -93,7 +93,7 @@
         <?php endif; ?>
         </div><!-- end main --> 
         </div><!-- end page --> 
-         <p><?php print_r($task_list); ?></p>
+         print_r($task_list); ?></p>
     </main>
 </body>
 </html>
